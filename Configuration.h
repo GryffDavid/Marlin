@@ -28,7 +28,7 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "TEVO Tarantula (EasyConfig)"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "TEVO Tarantula"  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
@@ -55,7 +55,7 @@
  * (How to center prints: https://github.com/JimBrown/MarlinTarantula/wiki/How-to-center-your-prints-(EasyConfig))
  */
 #define NOZZLE_X          0
-#define NOZZLE_Y          0
+#define NOZZLE_Y          -66
 
 /**
  * Minimal Z height (in mm) before homing (G28) for Z clearance above the bed, clamps, ...
@@ -104,8 +104,8 @@
  */
 #define SENSOR_LEFT        0
 #define SENSOR_RIGHT       0
-#define SENSOR_FRONT       38
-#define SENSOR_BEHIND      0
+#define SENSOR_FRONT       0
+#define SENSOR_BEHIND      74
 
 /**
  * Number of grid points in each direction
@@ -191,10 +191,10 @@
 #define Hot_PLA     		212
 #define Bed_PLA      		55
 
-#define Hot_ABS 		240
-#define Bed_ABS 		100
+#define Hot_ABS 			  240
+#define Bed_ABS 			  100
 
-#define Hot_PETG 		230
+#define Hot_PETG 			  230
 #define Bed_PETG     		80
 
 /**
@@ -222,8 +222,8 @@
  * Extra movement of Y axis. Can help with probing more of the bed.
  * Set both to 0 (zero) if you do not have a Z-Probe.
  */
-#define XTRA_BED_FRONT    21  // Distance bed can move towards the front past Y = 200 (Y=280 for large bed)
-#define XTRA_BED_BACK     0  // Distance bed can move towards the back past Y = 0
+#define XTRA_BED_FRONT    55  // Distance bed can move towards the front past Y = 200 (Y=280 for large bed)
+#define XTRA_BED_BACK     64  // Distance bed can move towards the back past Y = 0
 
 /**
  * Enable ONLY ONE of these if one of your stepper ports is not working and you wish to use the E1 stepper port.
